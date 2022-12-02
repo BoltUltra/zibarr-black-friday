@@ -6,7 +6,7 @@
 	};
 </script>
 
-<nav class="flex items-center justify-between lg:px-20 md:px-10 px-5 py-5">
+<nav class="flex items-center justify-between px-5 py-5">
 	<img src="/logo.png" alt="" class="lg:w-32 w-20" />
 	<div class="md:block hidden">
 		<div class="relative">
@@ -38,21 +38,21 @@
 					<div class="py-1" role="none">
 						<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-0">Account settings</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-1">Support</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
@@ -82,21 +82,21 @@
 					<div class="py-1" role="none">
 						<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-0">Account settings</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-1">Support</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
@@ -126,21 +126,21 @@
 					<div class="py-1" role="none">
 						<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-0">Account settings</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"
 							id="menu-item-1">Support</a
 						>
 						<a
-							href="#"
+							href="#!"
 							class="text-gray-700 block px-4 py-2 text-sm"
 							role="menuitem"
 							tabindex="-1"

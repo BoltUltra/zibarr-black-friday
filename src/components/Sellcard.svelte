@@ -19,7 +19,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">Online Course</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Attract more students with an easier way to buy, upgrade, and access your content
 			</p>
 		</div>
@@ -34,7 +34,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">Ebooks</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Watch your digital and physical books fly off the shelf like never before
 			</p>
 		</div>
@@ -51,7 +51,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">Events</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Charge recurring subscriptions, payment plans, and even “pay what you want” pricing
 			</p>
 		</div>
@@ -62,7 +62,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">SAAS</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Everything you need to become the #1 coach in your industry
 			</p>
 		</div>
@@ -84,7 +84,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">Physical Products</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Reach new clients and automate the billing process so you never chase payments again
 			</p>
 		</div>
@@ -101,7 +101,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">... and much more</h4>
-			<p class="font-light text-left md:text-base text-sm">
+			<p class="__sellCard-description">
 				Sell almost any type of product you can imagine
 			</p>
 		</div>

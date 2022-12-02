@@ -4,11 +4,11 @@
 	<h3 class="font-red text-2xl font-extrabold capitalize">
 		Get started today <br /> in three simple steps
 	</h3>
-	<img src="/getStarted.png" alt="" class="md:block hidden" />
+	<img src="/getStarted.png" alt="" class="md:block hidden mx-auto py-10" />
 	<div class="md:hidden">
 		<div class="relative">
 			<img src="/getStarted1.png" alt="" />
-			<div class="absolute bottom-16 left-[8.5rem] w-32 space-y-1">
+			<div class="absolute bottom-16 left-[8.2rem] w-32 space-y-1">
 				<h5 class="font-red font-bold text-sm">Create Your page</h5>
 				<p class="text-sm">
 					Pick a pre-built template for your product, and within minutes you’ll be ready to accept
@@ -29,10 +29,11 @@
 		</div>
 		<div class="relative">
 			<img src="/getStarted3.png" alt="" />
-			<div class="absolute top-24 left-48 w-32 space-y-1">
-				<h5 class="font-red font-bold text-sm">Share it with the world</h5>
+			<div class="absolute top-24 left-[11.3rem] w-32 space-y-1">
+				<h5 class="font-red font-bold text-sm">Grow Your Business</h5>
 				<p class="text-sm">
-					Link to your page from all your channels – your blog, social media, ads, email, and more.
+					With built-in upsells, split testing, order management and more…scaling up your sales will
+					be easier than ever.
 				</p>
 			</div>
 			<img src="/dots.png" alt="" class="w-20 absolute -right-1 top-10 -z-10" />

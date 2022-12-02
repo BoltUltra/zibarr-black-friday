@@ -1,6 +1,6 @@
 <script></script>
 
-<div class="px-5 md:flex grid grid-cols-2 gap-5 items-center justify-between">
+<div class="px-5 md:flex grid grid-cols-2 gap-5 items-center justify-between lg:px-64 md:px-40">
 	<div class="text-center leading-none">
 		<p class="stats">30,000+</p>
 		<p class="text-xs">Business Powered</p>

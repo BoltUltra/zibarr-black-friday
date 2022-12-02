@@ -46,7 +46,8 @@ const config = {
 				'gray-800': '#0D0D0D',
 				'gray-900': '#050505',
 
-				background: '#E5E5E5'
+				background: '#E5E5E5',
+				secondary: '#444444'
 			}
 		}
 	}
