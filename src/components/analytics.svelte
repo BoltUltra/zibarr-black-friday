@@ -2,11 +2,11 @@
 	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="px-5">
+<section class="lg:px-48 px-5">
 	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
 		<div class="space-y-3">
 			<h4 class="tracking-widest uppercase text-primary-500 text-sm">ANALYTICS & REPORTS</h4>
-			<p class="capitalize font-red text-3xl font-extrabold text-secondary">
+			<p class="capitalize font-red lg:text-4xl text-3xl font-extrabold text-secondary">
 				Streamline and scale your business with ease
 			</p>
 			<p class="text-secondary">
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="">
+		<div class="md:order-1 order-2">
 			<img src="/analytics.png" alt="" />
 		</div>
 	</div>

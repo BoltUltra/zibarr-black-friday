@@ -1,12 +1,12 @@
 <script>
-	import TickCircle from 'iconsax-svelte/TickCircle.svelte';
+	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="px-5">
+<section class="lg:px-48 px-5">
 	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
 		<div class="space-y-3">
 			<h4 class="tracking-widest uppercase text-primary-500 text-sm">pages & products</h4>
-			<p class="capitalize font-red text-3xl font-extrabold text-secondary">
+			<p class="capitalize font-red lg:text-4xl text-3xl font-extrabold text-secondary">
 				Boost conversions with a unique page for every product
 			</p>
 			<p class="text-secondary">
@@ -15,27 +15,27 @@
 			</p>
 			<div class="space-y-2">
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Drag and drop page builder</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Zero coding required</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">100% mobile responsive</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Library of pre-designed templates</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Subscriptions & Pay Plans</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Free & Paid Trials</p>
 				</div>
 			</div>

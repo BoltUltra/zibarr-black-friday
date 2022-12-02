@@ -1,15 +1,15 @@
 <script>
-	import TickCircle from 'iconsax-svelte/TickCircle.svelte';
+	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="px-5">
+<section class="lg:px-48 px-5">
 	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
-		<div class="md:order-1 order-2">
+		<div class="md:order-first order-last">
 			<img src="/upsells.png" alt="" />
 		</div>
 		<div class="space-y-3">
 			<h4 class="tracking-widest uppercase text-primary-500 text-sm">UPSELLS & ADD-ONS</h4>
-			<p class="capitalize font-red text-3xl font-extrabold text-secondary">
+			<p class="capitalize font-red lg:text-4xl text-3xl font-extrabold text-secondary">
 				Double your sales by maximizing every order
 			</p>
 			<p class="text-secondary">
@@ -18,27 +18,27 @@
 			</p>
 			<div class="space-y-2">
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Order Bumps</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">1-Click Upgrades</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">1-Click Upsells</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Automated Cart Recovery</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Automated Subscription Recovery</p>
 				</div>
 				<div class="flex items-center space-x-1">
-					<TickCircle size="24" color="#C5A059" variant="Bold" />
+					<TickSquare size="24" color="#C5A059" variant="Bold" />
 					<p class="text-secondary">Easy A/B Testing</p>
 				</div>
 			</div>
