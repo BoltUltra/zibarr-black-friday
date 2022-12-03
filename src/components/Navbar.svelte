@@ -1,6 +1,13 @@
 <script>
 	import ArrowCircleDown from 'iconsax-svelte/ArrowCircleDown.svelte';
 	import Menu from 'iconsax-svelte/Menu.svelte';
+	import {
+		Disclosure,
+		DisclosureButton,
+		DisclosurePanel,
+		Transition
+	} from '@rgossiaux/svelte-headlessui';
+	import { ChevronRightIcon } from '@rgossiaux/svelte-heroicons/solid';
 	let isNavOpen = false;
 
 	const handleNavMenu = () => {
@@ -9,7 +16,7 @@
 </script>
 
 <nav class="flex items-center justify-between px-5 py-5">
-	<img src="/logo.png" alt="" class="lg:w-32 w-20" />
+	<a href="/"> <img src="/logo.png" alt="" class="lg:w-32 w-20" /></a>
 	<div class="md:block hidden">
 		<div class="relative">
 			<div class="flex items-center space-x-5">
@@ -175,10 +182,238 @@
 		<button class="border-2 border-black shadow px-5 py-2 rounded ">Log In</button>
 		<button class="bg-primary-500 text-white py-2 px-5 rounded">Try for free</button>
 	</div>
-	<div class="md:hidden">
+	<div class="md:hidden" on:click={handleNavMenu}>
 		<Menu size="24" color="#C5A059" variant="Linear" />
 	</div>
 </nav>
+<div class="md:hidden px-5">
+	<div class={isNavOpen ? 'block' : 'hidden'}>
+		<Disclosure let:open>
+			<DisclosureButton
+				class="flex items-center justify-between w-full p-2 mb-1 bg-primary-200 rounded"
+			>
+				<a href="/why" on:click={handleNavMenu}> <span>Why Zibarr?</span></a>
+				<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+				<ChevronRightIcon
+					class="w-5 text-primary-500"
+					style={open ? 'transform: rotate(90deg);' : ''}
+				/>
+			</DisclosureButton>
+
+			<Transition
+				enter="transition duration-100 ease-out"
+				enterFrom="transform scale-95 opacity-0"
+				enterTo="transform scale-100 opacity-100"
+				leave="transition duration-75 ease-out"
+				leaveFrom="transform scale-100 opacity-100"
+				leaveTo="transform scale-95 opacity-0"
+			>
+				<DisclosurePanel>
+					<div class="pl-3">
+						<Disclosure let:open>
+							<DisclosureButton
+								class="flex items-center justify-between w-full p-2 mb-1 bg-primary-100 rounded"
+							>
+								<span>Platform</span>
+								<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+								<ChevronRightIcon
+									class="w-5 text-primary-500"
+									style={open ? 'transform: rotate(90deg);' : ''}
+								/>
+							</DisclosureButton>
+							<Transition
+								enter="transition duration-100 ease-out"
+								enterFrom="transform scale-95 opacity-0"
+								enterTo="transform scale-100 opacity-100"
+								leave="transition duration-75 ease-out"
+								leaveFrom="transform scale-100 opacity-100"
+								leaveTo="transform scale-95 opacity-0"
+							>
+								<DisclosurePanel class="pl-3">
+									<ul>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Features</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">CreatorU</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Courses App</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Integration</li></a
+										>
+									</ul>
+								</DisclosurePanel>
+							</Transition>
+						</Disclosure>
+					</div>
+					<div class="pl-3">
+						<Disclosure let:open>
+							<DisclosureButton
+								class="flex items-center justify-between w-full p-2 mb-1 bg-primary-100 rounded"
+							>
+								<span>Industries</span>
+								<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+								<ChevronRightIcon
+									class="w-5 text-primary-500"
+									style={open ? 'transform: rotate(90deg);' : ''}
+								/>
+							</DisclosureButton>
+							<Transition
+								enter="transition duration-100 ease-out"
+								enterFrom="transform scale-95 opacity-0"
+								enterTo="transform scale-100 opacity-100"
+								leave="transition duration-75 ease-out"
+								leaveFrom="transform scale-100 opacity-100"
+								leaveTo="transform scale-95 opacity-0"
+							>
+								<DisclosurePanel class="pl-3">
+									<ul>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Course Creators</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Agencies</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Physical Product Sellers</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Authors</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Amazon/Etsy Sellers</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Entrepreneurs</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Coaches & Consultants</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Side Hustlers</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Non Profit</li></a
+										>
+									</ul>
+								</DisclosurePanel>
+							</Transition>
+						</Disclosure>
+					</div>
+					<div class="pl-3">
+						<Disclosure let:open>
+							<DisclosureButton
+								class="flex items-center justify-between w-full p-2 mb-1 bg-primary-100 rounded"
+							>
+								<span>Partnership</span>
+								<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+								<ChevronRightIcon
+									class="w-5 text-primary-500"
+									style={open ? 'transform: rotate(90deg);' : ''}
+								/>
+							</DisclosureButton>
+							<Transition
+								enter="transition duration-100 ease-out"
+								enterFrom="transform scale-95 opacity-0"
+								enterTo="transform scale-100 opacity-100"
+								leave="transition duration-75 ease-out"
+								leaveFrom="transform scale-100 opacity-100"
+								leaveTo="transform scale-95 opacity-0"
+							>
+								<DisclosurePanel class="pl-3">
+									<ul>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Our Partners</li></a
+										>
+										<a href="#!" on:click={handleNavMenu}>
+											<li class="px-3 py-1 hover:bg-gray-100">Become a Partner</li></a
+										>
+									</ul>
+								</DisclosurePanel>
+							</Transition>
+						</Disclosure>
+					</div>
+				</DisclosurePanel>
+			</Transition>
+		</Disclosure>
+		<div class="w-full p-2 mb-1 bg-primary-200 rounded">
+			<a href="#!">Customer Stories</a>
+		</div>
+		<div class="w-full p-2 mb-1 bg-primary-200 rounded">
+			<a href="#!">Pricing</a>
+		</div>
+		<Disclosure let:open>
+			<DisclosureButton
+				class="flex items-center justify-between w-full p-2 mb-1 bg-primary-200 rounded"
+			>
+				<span>Learn</span>
+				<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+				<ChevronRightIcon
+					class="w-5 text-primary-500"
+					style={open ? 'transform: rotate(90deg);' : ''}
+				/>
+			</DisclosureButton>
+			<Transition
+				enter="transition duration-100 ease-out"
+				enterFrom="transform scale-95 opacity-0"
+				enterTo="transform scale-100 opacity-100"
+				leave="transition duration-75 ease-out"
+				leaveFrom="transform scale-100 opacity-100"
+				leaveTo="transform scale-95 opacity-0"
+			>
+				<DisclosurePanel class="pl-3">
+					<ul>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">Blog</li></a
+						>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">Knowledge Base</li></a
+						>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">Free Training</li></a
+						>
+					</ul>
+				</DisclosurePanel>
+			</Transition>
+		</Disclosure>
+		<Disclosure let:open>
+			<DisclosureButton
+				class="flex items-center justify-between w-full p-2 mb-1 bg-primary-200 rounded"
+			>
+				<span>About</span>
+				<!-- Use the `open` slot prop to rotate the icon when the panel is open -->
+				<ChevronRightIcon
+					class="w-5 text-primary-500"
+					style={open ? 'transform: rotate(90deg);' : ''}
+				/>
+			</DisclosureButton>
+			<Transition
+				enter="transition duration-100 ease-out"
+				enterFrom="transform scale-95 opacity-0"
+				enterTo="transform scale-100 opacity-100"
+				leave="transition duration-75 ease-out"
+				leaveFrom="transform scale-100 opacity-100"
+				leaveTo="transform scale-95 opacity-0"
+			>
+				<DisclosurePanel class="pl-3">
+					<ul>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">Team</li></a
+						>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">Careers</li></a
+						>
+						<a href="#!" on:click={handleNavMenu}
+							><li class="px-3 py-1 hover:bg-gray-100">About Us</li></a
+						>
+					</ul>
+				</DisclosurePanel>
+			</Transition>
+		</Disclosure>
+	</div>
+</div>
 
 <style>
 	/* since nested groupes are not supported we have to use 
