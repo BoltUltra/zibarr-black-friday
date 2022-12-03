@@ -19,7 +19,7 @@
 	<a href="/"> <img src="/logo.png" alt="" class="lg:w-32 w-20" /></a>
 	<div class="md:block hidden">
 		<div class="relative">
-			<div class="flex items-center space-x-5">
+			<div class="flex items-center lg:space-x-5 space-x-3 lg:text-base text-sm">
 				<div class="group inline-block">
 					<button class="outline-none focus:outline-none  py-1 rounded-sm flex items-center">
 						<a href="/"><span class="pr-1 flex-1">Why Zibarr?</span></a>
@@ -180,14 +180,16 @@
 	</div>
 	<div class="md:flex items-center space-x-5 hidden">
 		<button class="border-2 border-black shadow px-5 py-2 rounded ">Log In</button>
-		<button class="bg-primary-500 text-white py-2 px-5 rounded">Try for free</button>
+		<button class="border-2 border-transparent bg-primary-500 text-white py-2 px-5 rounded"
+			>Try for free</button
+		>
 	</div>
 	<div class="md:hidden" on:click={handleNavMenu}>
 		<Menu size="24" color="#C5A059" variant="Linear" />
 	</div>
 </nav>
 <div class="md:hidden px-5">
-	<div class={isNavOpen ? 'block' : 'hidden'}>
+	<div class={isNavOpen ? 'block space-y-1' : 'hidden'}>
 		<Disclosure let:open>
 			<DisclosureButton
 				class="flex items-center justify-between w-full p-2 mb-1 bg-primary-200 rounded"
@@ -412,6 +414,10 @@
 				</DisclosurePanel>
 			</Transition>
 		</Disclosure>
+		<div class="flex justify-center items-center space-x-5 py-3">
+			<button class="bg-primary-500 text-white py-2 px-5 rounded">Log In</button>
+			<button class="bg-primary-500 text-white py-2 px-5 rounded">Try for free</button>
+		</div>
 	</div>
 </div>
 
