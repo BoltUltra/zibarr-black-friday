@@ -1,6 +1,6 @@
 <script></script>
 
-<div class="space-y-5 pt-10 pb-10 font-red">
+<div class="space-y-5 pt-10 pb-10 px-5 font-red">
 	<p>All Core Features</p>
 	<p>1 Admin User</p>
 	<p class="font-semibold">All standard features, including:</p>

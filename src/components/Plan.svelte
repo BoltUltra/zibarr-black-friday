@@ -24,8 +24,10 @@
 			>
 		</TabList>
 		<TabPanels>
-			<TabPanel class="px-5 lg:px-40 text-secondary">
-				<div class="md:flex lg:justify-between md:space-y-0 space-y-10 lg:space-x-10 md:space-x-5">
+			<TabPanel class="px-5 lg:px-40 px-20 text-secondary">
+				<div
+					class="md:grid grid-cols-3 lg:justify-between md:space-y-0 space-y-10 lg:space-x-10 md:space-x-5"
+				>
 					<div>
 						<div class="__plan-card transit">
 							<div class="text-center font-red">
@@ -101,7 +103,9 @@
 				</div>
 			</TabPanel>
 			<TabPanel class="px-5 lg:px-40 text-secondary">
-				<div class="md:flex lg:justify-between md:space-y-0 space-y-10 lg:space-x-10 md:space-x-5">
+				<div
+					class="md:grid grid-cols-3 lg:justify-between md:space-y-0 space-y-10 lg:space-x-10 md:space-x-5"
+				>
 					<div>
 						<div class="__plan-card transit">
 							<div class="text-center font-red">
@@ -130,30 +134,27 @@
 						<LaunchFeatures />
 					</div>
 					<div>
-						<div>
-							<div class="__plan-card transit">
-								<div class="text-center font-red">
-									<img src="/grow.svg" alt="" class="mx-auto w-28" />
-									<p class="uppercase font-semibold">grow</p>
-									<div class="mt-10 space-y-10">
-										<p class="text-2xl font-semibold flex flex-col space-y-2">
-											<span class="pb-5"
-												><span class="text-primary-500 text-5xl font-bold">$79</span>/MO</span
-											>
-											<span class="line-through text-base"><span>$99</span>/MO</span>
-											<span class="text-base"><span>Billed Anually</span></span>
-										</p>
-										<div class="flex justify-center">
-											<button
-												class="font-bold border-2 border-secondary py-3 px-10 rounded-lg shadow"
-												>Get Started Free</button
-											>
-										</div>
-										<p class="px-5">
-											Convert more of your visitors into customers, and increase the value of each
-											purchase.
-										</p>
+						<div class="__plan-card transit">
+							<div class="text-center font-red">
+								<img src="/grow.svg" alt="" class="mx-auto w-28" />
+								<p class="uppercase font-semibold">grow</p>
+								<div class="mt-10 space-y-10">
+									<p class="text-2xl font-semibold flex flex-col space-y-2">
+										<span class="pb-5"
+											><span class="text-primary-500 text-5xl font-bold">$79</span>/MO</span
+										>
+										<span class="line-through text-base"><span>$99</span>/MO</span>
+										<span class="text-base"><span>Billed Anually</span></span>
+									</p>
+									<div class="flex justify-center">
+										<button class="font-bold border-2 border-secondary py-3 px-10 rounded-lg shadow"
+											>Get Started Free</button
+										>
 									</div>
+									<p class="px-5">
+										Convert more of your visitors into customers, and increase the value of each
+										purchase.
+									</p>
 								</div>
 							</div>
 						</div>
