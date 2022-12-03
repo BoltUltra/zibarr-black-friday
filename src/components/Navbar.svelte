@@ -22,7 +22,7 @@
 			<div class="flex items-center lg:space-x-5 space-x-3 lg:text-base text-sm">
 				<div class="group inline-block">
 					<button class="outline-none focus:outline-none  py-1 rounded-sm flex items-center">
-						<a href="/"><span class="pr-1 flex-1">Why Zibarr?</span></a>
+						<a href="/why"><span class="pr-1 flex-1">Why Zibarr?</span></a>
 						<span>
 							<svg
 								class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
