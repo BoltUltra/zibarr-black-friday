@@ -3,7 +3,7 @@
 </script>
 
 <section class="text-center __what text-secondary">
-	<div class="lg:px-72 px-5 lg:my-16 my-10 space-y-5">
+	<div class="lg:px-72 md:px-40 px-5 lg:my-16 my-10 space-y-5">
 		<p class="font-bold text-sm ">WHAT IS ZIBARR?</p>
 		<h3 class="font-red font-extrabold text-3xl lg:px-32">
 			An All Inclusive eCommerce Platform That Helps You Sell Without Marketing
@@ -24,7 +24,7 @@
 			/>
 		</div>
 	</div>
-	<div class="lg:px-48 px-5">
+	<div class="lg:px-48 md:px-20 px-5">
 		<Sell />
 	</div>
 </section>

@@ -2,8 +2,8 @@
 	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="lg:px-48 px-5">
-	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
+<section class="lg:px-48 md:px-20 px-5 my-10">
+	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm items-center">
 		<div class="md:order-first order-last">
 			<img src="/upsells.png" alt="" />
 		</div>

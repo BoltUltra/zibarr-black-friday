@@ -2,7 +2,9 @@
 	import Headphone from 'iconsax-svelte/Headphone.svelte';
 </script>
 
-<div class="md:space-y-0 space-y-5 md:grid grid-cols-3 md:gap-5 flex flex-col py-5">
+<div
+	class="md:space-y-0 space-y-5 md:grid lg:grid-cols-3 md:grid-cols-2 md:gap-5 flex flex-col py-5"
+>
 	<div class="__sellCard">
 		<div class="__cardIcon">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#C5A059" class="w-7">
@@ -101,9 +103,7 @@
 		</div>
 		<div class="space-y-1">
 			<h4 class="font-semibold text-left">... and much more</h4>
-			<p class="__sellCard-description">
-				Sell almost any type of product you can imagine
-			</p>
+			<p class="__sellCard-description">Sell almost any type of product you can imagine</p>
 		</div>
 	</div>
 </div>

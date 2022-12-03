@@ -2,7 +2,7 @@
 	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="lg:px-48 px-5">
+<section class="lg:px-48 md:px-20 px-5 py-10">
 	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
 		<div class="space-y-3">
 			<h4 class="tracking-widest uppercase text-primary-500 text-sm">ANALYTICS & REPORTS</h4>

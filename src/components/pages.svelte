@@ -2,8 +2,8 @@
 	import TickSquare from 'iconsax-svelte/TickSquare.svelte';
 </script>
 
-<section class="lg:px-48 px-5">
-	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm">
+<section class="lg:px-48 md:px-20 px-5">
+	<div class="grid md:grid-cols-2 md:space-y-0 space-y-5 text-sm items-center">
 		<div class="space-y-3">
 			<h4 class="tracking-widest uppercase text-primary-500 text-sm">pages & products</h4>
 			<p class="capitalize font-red lg:text-4xl text-3xl font-extrabold text-secondary">

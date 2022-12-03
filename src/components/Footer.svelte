@@ -2,10 +2,10 @@
 
 <footer class="pt-10">
 	<div
-		class="flex items-center lg:px-10 lg:justify-start justify-center md:flex-row flex-col lg:space-y-0 space-y-5 border-b border-x-green-200 mb-2 px-5 lg:space-x-5"
+		class="flex items-center md:px-10 md:justify-start justify-center md:flex-row flex-col md:space-y-0 space-y-5 border-b border-x-green-200 mb-2 px-5 md:space-x-5"
 	>
 		<img src="/logo.png" alt="" class="w-32" />
-		<p class="lg:text-left text-center text-xs lg:w-[30rem]">
+		<p class="md:text-left text-center text-xs md:w-[30rem]">
 			If you’re selling digital products online, you need more than a pretty way to deliver your
 			content. You need an easy way to boost conversions, maximize customer value, and run your
 			business without worrying about technology. That’s why we built Zibarr.

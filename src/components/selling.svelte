@@ -2,7 +2,9 @@
 	import ArrowRight from 'iconsax-svelte/ArrowRight.svelte';
 </script>
 
-<section class="bg-primary-500 px-5 lg:px-44 py-5 lg:py-10 space-y-5 relative text-secondary">
+<section
+	class="bg-primary-500 px-5 lg:px-44 md:px-20 py-5 lg:py-10 space-y-5 relative text-secondary"
+>
 	<h3 class="font-bold font-red text-white lg:text-4xl text-2xl tracking-wide">
 		Start Selling today
 	</h3>
