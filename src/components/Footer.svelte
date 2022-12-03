@@ -2,7 +2,7 @@
 
 <footer class="pt-10">
 	<div
-		class="flex items-center md:px-10 md:justify-start justify-center md:flex-row flex-col md:space-y-0 space-y-5 border-b border-x-green-200 mb-2 px-5 md:space-x-5"
+		class="flex items-center md:px-10 md:justify-start justify-center md:flex-row flex-col md:space-y-0 space-y-5 mb-2 px-5 md:space-x-5"
 	>
 		<img src="/logo.png" alt="" class="w-32" />
 		<p class="md:text-left text-center text-xs md:w-[30rem]">

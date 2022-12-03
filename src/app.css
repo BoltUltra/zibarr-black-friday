@@ -33,3 +33,23 @@
 .dropdown-list {
 	@apply absolute z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none;
 }
+
+.why {
+	background-color: rgb(197, 160, 89);
+	background: linear-gradient(rgba(197, 160, 89, 0.8), rgba(197, 160, 89, 0.8)),
+		url(/hero-bg.png) no-repeat center center;
+	background-size: cover;
+}
+
+.plan {
+	background: url(/hero-bg.png) no-repeat center center;
+	background-size: cover;
+}
+
+.transit {
+	@apply lg:hover:scale-105 lg:transition lg:transform lg:duration-200 lg:ease-out;
+}
+
+.__plan-card {
+	@apply py-10 bg-white rounded-xl cursor-pointer lg:hover:shadow-md;
+}

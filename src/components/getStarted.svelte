@@ -7,7 +7,7 @@
 	<div class="relative md:block hidden">
 		<img src="/getStarted.png" alt="" class=" mx-auto py-10" />
 		<div
-			class="absolute lg:bottom-32 bottom-[5.5rem] lg:left-40 left-[6.5rem] lg:w-36 w-28 lg:space-y-2 space-y-1 lg:text-sm text-xs"
+			class="absolute lg:bottom-32 bottom-[5.5rem] lg:left-[9.5rem] left-[6.5rem] lg:w-28 w-28 lg:space-y-2 space-y-1 lg:text-[13px] text-xs"
 		>
 			<h5 class="font-red font-bold">Create Your Page</h5>
 			<p class="">
@@ -16,7 +16,7 @@
 			</p>
 		</div>
 		<div
-			class="absolute lg:top-32 top-24 lg:left-[27rem] left-[18.5rem] lg:w-36 w-[7.5rem] space-y-1 lg:text-sm text-xs"
+			class="absolute lg:top-36 top-24 lg:left-[27rem] left-[18.5rem] lg:w-28 w-[7.5rem] space-y-1 lg:text-[13px] text-xs"
 		>
 			<h5 class="font-red font-bold">Share it with the world</h5>
 			<p class="">
@@ -24,7 +24,7 @@
 			</p>
 		</div>
 		<div
-			class="absolute lg:top-[8.6rem] top-[6.5rem] lg:right-14 right-8 lg:w-36 w-28 space-y-1 lg:text-sm text-xs"
+			class="absolute lg:top-[8.6rem] top-[6.5rem] lg:right-20 right-8 lg:w-28 w-28 space-y-1 lg:text-[13px] text-xs"
 		>
 			<h5 class="font-red font-bold">Grow Your Business</h5>
 			<p class="">

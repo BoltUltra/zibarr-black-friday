@@ -1,5 +1,9 @@
+<script>
+	import Plan from '../../components/Plan.svelte';
+	import WhyHero from '../../components/whyHero.svelte';
+</script>
+
 <div>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsum. Quod tenetur consectetur,
-	saepe quae sit dignissimos reprehenderit blanditiis id magni molestias modi consequatur
-	necessitatibus neque cupiditate porro! Id, omnis.
+	<WhyHero />
+	<Plan />
 </div>

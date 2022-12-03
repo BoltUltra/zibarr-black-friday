@@ -21,8 +21,8 @@
 		<div class="relative">
 			<div class="flex items-center space-x-5">
 				<div class="group inline-block">
-					<button class="outline-none focus:outline-none border py-1 rounded-sm flex items-center">
-						<span class="pr-1 flex-1">Why Zibarr?</span>
+					<button class="outline-none focus:outline-none  py-1 rounded-sm flex items-center">
+						<a href="/"><span class="pr-1 flex-1">Why Zibarr?</span></a>
 						<span>
 							<svg
 								class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
@@ -118,7 +118,7 @@
 				<a href="#!">Customer Stories</a>
 				<a href="#!">Pricing</a>
 				<div class="group inline-block">
-					<button class="outline-none focus:outline-none border py-1 rounded-sm flex items-center">
+					<button class="outline-none focus:outline-none  py-1 rounded-sm flex items-center">
 						<span class="pr-1 flex-1">Learn</span>
 						<span>
 							<svg
@@ -147,7 +147,7 @@
 					</ul>
 				</div>
 				<div class="group inline-block">
-					<button class="outline-none focus:outline-none border py-1 rounded-sm flex items-center">
+					<button class="outline-none focus:outline-none  py-1 rounded-sm flex items-center">
 						<span class="pr-1 flex-1">About</span>
 						<span>
 							<svg
@@ -339,10 +339,10 @@
 			</Transition>
 		</Disclosure>
 		<div class="w-full p-2 mb-1 bg-primary-200 rounded">
-			<a href="#!">Customer Stories</a>
+			<a href="#!" on:click={handleNavMenu}>Customer Stories</a>
 		</div>
 		<div class="w-full p-2 mb-1 bg-primary-200 rounded">
-			<a href="#!">Pricing</a>
+			<a href="#!" on:click={handleNavMenu}>Pricing</a>
 		</div>
 		<Disclosure let:open>
 			<DisclosureButton
